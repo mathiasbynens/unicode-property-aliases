@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Unicode property alias mappings in JavaScript format.",
   "homepage": "https://github.com/mathiasbynens/unicode-property-aliases",
+  "main": "index.js",
   "engines": {
     "node": ">=6"
   },
