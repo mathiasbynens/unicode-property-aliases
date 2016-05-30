@@ -28,9 +28,9 @@ const parsePropertyAliases = function() {
 
 const map = parsePropertyAliases();
 const header = '// Generated using `npm run build`. Do not edit!';
-const output = `${ header }\nmodule.exports = new Map(${
-	jsesc([...map], {
+const output = `${ header }\nmodule.exports = ${
+	jsesc(map, {
 		'compact': false
 	})
-});\n`;
+};\n`;
 require('fs').writeFileSync('./index.js', output);
