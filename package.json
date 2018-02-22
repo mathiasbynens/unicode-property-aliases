@@ -33,7 +33,7 @@
     "jsesc": "^2.0.0"
   },
   "scripts": {
-    "download": "curl http://unicode.org/Public/10.0.0/ucd/PropertyAliases.txt > data/PropertyAliases.txt",
+    "download": "curl https://unicode.org/Public/11.0.0/ucd/PropertyAliases-11.0.0d16.txt > data/PropertyAliases.txt",
     "build": "node scripts/build.js",
     "test": "ava ./tests"
   }

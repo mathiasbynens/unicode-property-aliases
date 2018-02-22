@@ -32,6 +32,7 @@ module.exports = new Map([
 	['cjkRSUnicode', 'kRSUnicode'],
 	['Unicode_Radical_Stroke', 'kRSUnicode'],
 	['URS', 'kRSUnicode'],
+	['EqUIdeo', 'Equivalent_Unified_Ideograph'],
 	['isc', 'ISO_Comment'],
 	['JSN', 'Jamo_Short_Name'],
 	['na', 'Name'],
