@@ -2,8 +2,6 @@
 
 _unicode-property-aliases_ offers the Unicode property alias mappings in an easy-to-consume JavaScript format.
 
-It’s based on [the `PropertyAliases.txt` data for Unicode v11.0.0](https://unicode.org/Public/11.0.0/ucd/PropertyAliases.txt).
-
 ## Installation
 
 To use _unicode-property-aliases_ programmatically, install it as a dependency via [npm](https://www.npmjs.com/):
