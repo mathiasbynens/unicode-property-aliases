@@ -1,7 +1,7 @@
-import test from 'ava';
-import propertyAliases from '../index.js';
+const test = require('ava');
+const propertyAliases = require('../index.js');
 
-test(t => {
+test('propertyAliases', t => {
 	t.is(
 		propertyAliases.get('scf'),
 		'Simple_Case_Folding'
@@ -29,5 +29,9 @@ test(t => {
 	t.is(
 		propertyAliases.get('space'),
 		'White_Space'
+	);
+	t.is(
+		propertyAliases.get('EBase'),
+		'Emoji_Modifier_Base'
 	);
 });
