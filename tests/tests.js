@@ -1,7 +1,7 @@
 import test from 'ava';
 import propertyAliases from '../index.js';
 
-test(t => {
+test('unicode-property-aliases', t => {
 	t.is(
 		propertyAliases.get('scf'),
 		'Simple_Case_Folding'
