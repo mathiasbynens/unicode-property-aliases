@@ -1,40 +1,40 @@
 {
-  "name": "unicode-property-aliases",
-  "version": "2.0.0",
-  "description": "Unicode property alias mappings in JavaScript format.",
-  "homepage": "https://github.com/mathiasbynens/unicode-property-aliases",
-  "main": "index.js",
-  "engines": {
-    "node": ">=4"
-  },
-  "files": [
-    "LICENSE-MIT.txt",
-    "index.js"
-  ],
-  "keywords": [
-    "unicode",
-    "unicode-data",
-    "alias",
-    "aliases",
-    "property alias"
-  ],
-  "license": "MIT",
-  "author": {
-    "name": "Mathias Bynens",
-    "url": "https://mathiasbynens.be/"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mathiasbynens/unicode-property-aliases.git"
-  },
-  "bugs": "https://github.com/mathiasbynens/unicode-property-aliases/issues",
-  "devDependencies": {
-    "ava": "*",
-    "jsesc": "^3.0.2"
-  },
-  "scripts": {
-    "download": "curl --location https://unicode.org/Public/16.0.0/ucd/PropertyAliases.txt > data/PropertyAliases.txt",
-    "build": "node scripts/build.js",
-    "test": "ava tests/tests.js"
-  }
+	"name": "unicode-property-aliases",
+	"version": "2.0.0",
+	"description": "Unicode property alias mappings in JavaScript format.",
+	"homepage": "https://github.com/mathiasbynens/unicode-property-aliases",
+	"main": "index.js",
+	"engines": {
+		"node": ">=4"
+	},
+	"files": [
+		"LICENSE-MIT.txt",
+		"index.js"
+	],
+	"keywords": [
+		"unicode",
+		"unicode-data",
+		"alias",
+		"aliases",
+		"property alias"
+	],
+	"license": "MIT",
+	"author": {
+		"name": "Mathias Bynens",
+		"url": "https://mathiasbynens.be/"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mathiasbynens/unicode-property-aliases.git"
+	},
+	"bugs": "https://github.com/mathiasbynens/unicode-property-aliases/issues",
+	"devDependencies": {
+		"ava": "*",
+		"jsesc": "^3.0.2"
+	},
+	"scripts": {
+		"download": "curl --location https://unicode.org/Public/17.0.0/ucd/PropertyAliases.txt > data/PropertyAliases.txt",
+		"build": "node scripts/build.js",
+		"test": "ava tests/tests.js"
+	}
 }
